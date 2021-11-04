@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+char a;
+char b;
+char c;
+char d;
+char e;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    cout << "введите 5 символов " << endl;
+    cin >> a >> b >> c >> d >> e;
+    cout << e << d << c << b << a;
+
+
+    return 0;
+}
