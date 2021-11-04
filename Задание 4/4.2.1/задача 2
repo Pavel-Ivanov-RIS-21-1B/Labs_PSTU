@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+float i;
+float c;
+int main()
+{
+    setlocale(LC_ALL,"Russian");
+    cout<<"введите кол-во галлонов"<<endl;
+    cin >> c;
+    i = c / 7.481;
+    cout<<i;
+    return 0;
+}
