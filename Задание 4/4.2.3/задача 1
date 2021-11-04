@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+float c;
+float b;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    cout << "введите 2 числа " << endl;
+    cin >> c;
+    cin >> b;
+    cout << "произведение 2 чисел равно " << b * c;
+
+    return 0;
+}
+}
